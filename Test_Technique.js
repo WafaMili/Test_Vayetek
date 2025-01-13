@@ -28,6 +28,6 @@ fs.readFile('Document.txt', 'utf8', (err, data) => {
       return;
   }
   const lignes = data.split('\n');
-  const sommeTotale = calculerSommeValeursSansMatch(lignes);
+  const sommeTotale = calculerSommedétalonnage(lignes);
   console.log("La somme totale des valeurs d'étalonnage est :", sommeTotale);
 });
